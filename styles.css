@@ -50,3 +50,70 @@ body {
   margin-right: 10px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(334deg) brightness(100%) contrast(100%);
 }
+
+.nav1 {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.nav1 ul {
+  padding: 0;
+  list-style: none;
+  color: black;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(334deg) brightness(100%) contrast(100%);
+}
+
+.home::before {
+  content: url(icons/home.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
+
+.profile::before {
+  content: url(icons/profile.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
+
+.messages::before {
+  content: url(icons/messages.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
+
+.history::before {
+  content: url(icons/history.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
+
+.tasks::before {
+  content: url(icons/tasks.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
+
+.communities::before {
+  content: url(icons/communities.svg);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding-right: 20px;
+}
